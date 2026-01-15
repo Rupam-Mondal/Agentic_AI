@@ -19,3 +19,25 @@ Both will clash if installed globally ❌
 Under main folder You can create `requirements.txt`
 - `pip install -r requirements.txt`
 everything inside this will be installed.
+
+# DataTypess
+
+- (/) --> gives exact answer of division
+- (//) --> without decimal but floor value
+- power --> 2^3 is euivalent to 2 ** 3 in python
+total_leaves = 1_000_000_000 a special feature of python, still it will be counted as without underscore
+
+### Upcasting
+
+```
+is_boiling = True
+
+stri_count = 5
+
+total = is_boiling + stri_count # upcasting
+
+print(total)
+```
+
+- for boolean 0 represents false
+- for anything present represent as true
