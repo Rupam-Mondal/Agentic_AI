@@ -41,3 +41,27 @@ print(total)
 
 - for boolean 0 represents false
 - for anything present represent as true
+
+# Python Data Types: Mutable vs Immutable
+
+| 🔓 Mutable Data Types | 🔒 Immutable Data Types |
+|----------------------|------------------------|
+| `list` | `int` |
+| `dict` | `float` |
+| `set` | `complex` |
+| `bytearray` | `bool` |
+| `memoryview` | `str` |
+| `array` | `tuple` |
+| `deque` | `frozenset` |
+| `defaultdict` | `bytes` |
+| `Counter` | `range` |
+|  | `NoneType` |
+
+---
+
+### Example
+
+#### Mutable
+```python
+lst = [1, 2, 3]
+lst.append(4)
